@@ -1,0 +1,22 @@
+{
+	"name": "service-template",
+	"version": "1.0.0",
+	"description": "Service template",
+	"main": "index.js",
+	"scripts": {
+		"start": "node .",
+		"postinstall": "node ./install.js",
+		"preuninstall": "node ./uninstall.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"node-beep": "^0.0.3",
+		"os-service": "^2.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.0",
+		"@types/os-service": "^2.2.1",
+		"typescript": "^4.8.4"
+	}
+}
